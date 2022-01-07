@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.comprar_carro, .comprar_bicicleta {
+    background-color: black;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.comprar_carro h3, .comprar_bicicleta h3 {
+    color: white;
+    padding: 20px;
+}
+
+.comprar_carro p, .comprar_bicicleta p {
+    color: #ddd;
+    padding: 0px 20px 20px 20px;
+}
+
+.price {
+    color: yellow;
+}
+
+.model {
+    color: yellow;
+}
+
+.km_rodados {
+    color: yellow;
+}
