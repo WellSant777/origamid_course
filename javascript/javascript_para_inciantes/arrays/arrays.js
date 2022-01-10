@@ -1,3 +1,13 @@
+const alunos = ["Maria", "José", "João"]
+
+alunos.forEach((aluno) => {
+    console.log(aluno)
+})
+
+for(let i = 0; i < alunos.length; i++) {
+    console.log(alunos[i])
+}
+
 var videogames = ["Switch", "PS4", "Xbox"]
 
 console.log(videogames[0])

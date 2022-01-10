@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+}
+
+.nacional-logo {
+    color: rgb(207, 163, 18);
+}
+
+header {
+    background-color: #111;
+    height: 200px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+header * {
+    color: white;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.container-principal--content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.item {
+    background-color: red;
+    height: 500px;
+    margin-top: -70px;
+}
