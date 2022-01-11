@@ -1,0 +1,155 @@
+/*
+    Formatação Geral
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img, svg {
+    width: 100%;
+}
+
+.container {
+    width: 1043px;
+    margin: 0 auto;
+}
+
+/*
+    Header
+*/
+
+header {
+    height: 256px;
+    background-color: #040032;
+    color: white;
+}
+
+header h1 {
+    padding-top: 60px;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.amarelo {
+    color: #BC9300;
+}
+
+/*
+    Main
+*/
+
+.container-main {
+    width: 865px;
+    height: 447px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    position: relative;
+    border-radius: 4px;
+    margin: -90px auto 0 auto;
+}
+
+
+.container-main input {
+    width: 686px;
+    height: 70px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F0F0F0;
+    margin-bottom: 30px;
+}
+
+input::placeholder {
+    padding-left: 30px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    color: #616161;
+}
+
+.container-main a {
+    padding: 12px 24px;
+    background-color: #FFC700;
+    color: #564300;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.location {
+    width: 668px;
+    height: 180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-street {
+    background-color: #040037;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    align-items: flex-end;
+    padding: 100px;
+}
+
+.map-bg {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-bg img {
+    width: 165px;
+    height: 135px;
+}
+
+
+/*
+    Footer
+*/
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    color: #fff;
+    background-color: #040032;
+}
+
+footer h3 {
+    font-weight: normal;
+}
+
+footer a {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
